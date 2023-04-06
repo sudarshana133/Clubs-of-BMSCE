@@ -1,0 +1,198 @@
+html
+{
+  scroll-behavior: smooth;
+}
+body
+{
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+section:nth-child(1) .name
+{
+  font-family:sans-serif;
+  position: relative;
+  top: -55px;
+  left: 220px;
+  width: 390px;
+  font-size: 110%;
+  letter-spacing: 0;
+}
+section:nth-child(1) a.login:link,a.login:visited
+{
+  text-decoration: none;
+  padding: 15px;
+  color: white;
+  float: right;
+  background-color: rgba(80, 43, 226, 0.737);
+  position: relative;
+  border:1px solid white;
+  border-radius: 5px;
+  top: -110px;
+  right: 240px;
+}
+section:nth-child(1) a.login:hover,a.login:active
+{
+  color: rgba(80, 43, 226, 0.737);
+  background-color: white;
+  border:1px solid rgba(80, 43, 226, 0.737);
+}
+a.sign_up:link,a.sign_up:visited
+{
+  background-color: rgba(80, 43, 226, 0.737);
+  padding: 15px;
+  border: 1px solid rgba(80, 43, 226, 0.737);
+  border-radius: 5px;
+  float: right;
+  position: relative;
+  right: 30px;
+  top: -110px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+a.sign_up:hover,a.sign_up:active
+{
+  background-color: white;
+  border: 1px solid rgba(80, 43, 226, 0.737);
+  color: rgba(80, 43, 226, 0.737);
+}
+.nav_bar ul
+{
+  list-style-type: none;
+  padding: 0;
+  font-size: 120%;
+  width:100%;
+  overflow: hidden;
+  background-color:#0088CC;
+  position: relative;
+  top:-60px;
+}
+.nav_bar li
+{
+  margin: 0;
+  padding: 0;
+  float: left;
+}
+.nav_bar a
+{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 25px 16px 25px;
+  text-decoration: none;
+}
+.nav_bar a.home:link
+{
+  margin-left: 50px;
+}
+.nav_bar a:hover
+{
+  background-color: rgba(255, 255, 255, 0.212);
+  padding: 25px 30px 25px;
+  transition: .5s;
+}
+.photo_bmsce img
+{
+  width: 800px;
+  position: relative;
+  left: 20%;
+}
+.desc
+{
+  position: relative;
+  left: 5px;
+  top: 30px;
+  width: 50%;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+.desc h1
+{
+  position: relative;
+  left: 7px;
+}
+.desc p
+{
+  position: relative;
+  left: 7px;
+}
+footer
+{
+  position: relative;
+  background-color: #0088cc9e;
+  top: 170px;
+  margin-left: -7px;
+  margin-right: -8px;
+  border-radius: 10px 10px 0 0;
+  width: 98.8vw;
+  height: 30vh;
+  margin-top: -100px;
+}
+footer h1
+{
+  position: absolute;
+  top: 8px;
+  left: 15px;
+  color: rgba(238, 238, 238, 0.932);
+}
+.insta_logo
+{
+  max-width: 40px;
+  position: absolute;
+  top: 90px;
+  left: 40px;
+}
+.facebook_logo
+{
+  max-width: 90px;
+  position: absolute;
+  top: 140px;
+  left: 13px;
+}
+.facebook_logo:hover
+{
+  max-width: 97px;
+  transition: .5s;
+}
+.insta_logo:hover
+{
+  max-width: 45px;
+  transition: .5s;
+}
+.insta h3,.facebook h3
+{
+  position: absolute;
+  top: 80px;
+  left: 90px;
+  width: 30vw;
+  font-size: 20px;
+  color: rgba(238, 238, 238, 0.932)
+}
+.facebook h3
+{
+  position: absolute;
+  top: 140px;
+}
+.facebook h3:hover
+{
+  font-size: 23px;
+  text-decoration: underline;
+  transition: .5s;
+}
+.insta h3:hover
+{
+  font-size: 23px;
+  text-decoration: underline;
+  transition: .5s;
+}
+a.insta:link,a.insta:active
+{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+a.insta:hover,a.insta:visited
+{
+  text-decoration: underline;
+  color: rgb(0, 0, 0);
+}

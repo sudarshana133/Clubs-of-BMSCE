@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+.clubs {
+  position: relative;
+  left: -7px;
+  top: -2px;
+  height: 98vh;
+  width: 98.7vw;
+  background-repeat: no-repeat;
+  background-color: lightyellow;
+  border-top: 1px solid black;
+}
+.heading {
+  display: flex;
+}
+.heading h1 {
+  font-size: 20px;
+  position: relative;
+  top: 50px;
+  left: 90px;
+}
+.heading .bms_logo {
+  max-width: 8%;
+  position: relative;
+  left: 30px;
+  top: 20px;
+}
+.home_button
+{
+    padding: 17px;
+    background-color: rgb(194, 102, 255);
+    color: white;
+    float: right;
+    position: relative;
+    right: 20px;
+    border: 1px solid rgb(212,147,255);
+    border-radius: 5px;
+    font-weight: 600;
+    top: -90px;
+}
+.home_button:hover
+{
+    padding: 17px;
+    background-color: white;
+    color: rgb(194, 102, 255);
+}
+.clubs h1 {
+  position: relative;
+  top: 50px;
+  left: 40px;
+  font-size: 28px;
+  width: 100vh;
+  color: black;
+}
+.clubs .pentagram,
+.clubs .upagraha,
+.clubs .pravrutthi,
+.clubs .ninaad,
+.clubs .augment,
+.clubs .fac,
+.clubs .chirantana {
+  max-width: 10%;
+  position: absolute;
+  top: 150px;
+  left: 100px;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+.clubs .pentagram:hover,
+.clubs .upagraha:hover,
+.clubs .pravrutthi:hover,
+.clubs .ninaad:hover,
+.clubs .augment:hover,
+.clubs .fac:hover,
+.clubs .chirantana:hover {
+  max-width: 10.6%;
+  position: absolute;
+  top: 150px;
+  left: 100px;
+  transition: 0.5s;
+}
+.clubs .upagraha,
+.clubs .upagraha:hover {
+  position: absolute;
+  left: 280px;
+}
+.clubs .pravrutthi,
+.clubs .pravrutthi:hover {
+  position: absolute;
+  left: 450px;
+}
+.clubs .ninaad,
+.clubs .ninaad:hover {
+  position: absolute;
+  left: 650px;
+}
+.clubs .augment,
+.clubs .augment:hover {
+  position: absolute;
+  left: 850px;
+}
+.clubs .fac,
+.clubs .fac:hover {
+  position: absolute;
+  top: 350px;
+}
+.clubs .chirantana,
+.clubs .chirantana:hover {
+  position: absolute;
+  top: 350px;
+  left: 280px;
+}
+.clubs h3 {
+  position: absolute;
+  color: black;
+}
+.pentagramtxt {
+  top: 290px;
+  left: 120px;
+}
+.upagrahatxt {
+  top: 290px;
+  left: 310px;
+}
+.pravrutthitxt {
+  top: 290px;
+  left: 480px;
+}
+.ninaadtxt {
+  top: 290px;
+  left: 690px;
+}
+.augmenttxt {
+  top: 290px;
+  left: 880px;
+}
+.factxt {
+  top: 500px;
+  left: 120px;
+}
+.chirantanatxt {
+  top: 500px;
+  left: 310px;
+}

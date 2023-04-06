@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+    <div class="foundUser" style="margin: 50px auto; background-color: rgb(255, 0, 0); width: 24%; border-radius: 30px; color: rgb(40, 16, 16);">
+        <h2><%= usnFound %> was found</h2>
+    </div>
+    <div class="heading">
+        <h1>Login</h1>
+    </div>
+    <div class="log_in">
+        <form action="/login" method="post" class="form">
+            <input type="text" name="usn" id="usn" placeholder="Enter usn" required>
+            <input type="password" name="password" id="password" placeholder="Password" required>
+            <button type="submit" class="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>

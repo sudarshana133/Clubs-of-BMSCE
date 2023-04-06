@@ -1,0 +1,82 @@
+
+body
+{
+    background-color: rgba(0, 255, 162, 0.15);
+}
+.sen1
+{
+    font-size: 17px;
+    position: relative;
+    width: 120px;
+    top: 40px;
+    left: 600px;
+}
+.form 
+{
+    background-color: rgba(18, 164, 237, 0.422);
+    border-radius: 10px;
+    padding: 30px;
+    width: 56vw;
+    height: 103vh;
+    position: relative;
+    top: 40px; 
+    left: 310px;
+}
+.form p
+{
+    font-size: 17px;
+    position: relative;
+    top: 40px;
+    left: 100px;
+}
+input[type="text"],input[type="email"],input[type="password"]
+{
+    padding: 12px 14px 13px 16px;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 250px;
+    position: relative;
+    top: 40px;
+    left: 100px;
+    outline: none;
+}
+#country_code
+{
+    padding: 12px ;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 70px;
+    position: relative;
+    top: 40px;
+    left: 100px;
+}
+input[type="submit"]
+{
+    background-color: rgba(0, 13, 255, 0.553);
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 18px;
+    position: relative;
+    top: 70px;
+    left: 100px;
+}
+input[type="submit"]:hover
+{
+    background-color: rgba(102, 0, 255, 0.564);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 20px;
+    padding: 18px;
+    position: relative;
+    top: 70px;
+    left: 100px;
+}
+#checking_password,#checking_name,#phone,#checking_usn,#checking_email,#pass_length
+{
+    color: rgb(13, 0, 255);
+    position: relative;
+    top: 40px;
+    left: 120px;
+    font-weight: 700;
+}

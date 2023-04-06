@@ -1,0 +1,214 @@
+html{
+    scroll-behavior: smooth;
+  }
+  
+  a.heading
+  {
+    color: rgba(255, 102, 0, 0.889);
+  }
+  header .logo
+  {
+      max-width: 27%;
+      mix-blend-mode: color-burn;
+      position: relative;
+      top: 15px;
+      left: 10px;
+  }
+  header a.heading:link 
+  {
+      text-decoration: none;
+      font-size: 220%;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      position: relative;
+      left: 180px;
+      top: -50px;
+      color: rgb(0, 30, 255);
+  }
+  nav ul
+  {
+    list-style-type: none;
+    padding: 0;
+    font-size: 120%;
+    overflow: hidden;
+    /* background-color: rgba(255, 140, 0, 0.725); */
+    background-image: linear-gradient(to right,rgba(255, 140, 0, 0.725),rgba(255, 0, 0, 0.718));
+    position: relative;
+    margin-right: -17px;
+    top: -10px;
+    left: -10px;
+  }
+  nav li
+  {
+    margin: 0;
+    padding: 0;
+    float: left;
+  }
+  nav a
+  {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 25px 16px 25px;
+    text-decoration: none;
+  }
+  nav a.home:link
+  {
+    margin-left: 50px;
+  }
+  nav a:hover
+  {
+    background-color: rgba(255, 251, 0, 0.487);
+    padding: 25px 30px 25px;
+  transition: .5s;
+  }
+  .sent1
+  {
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+    width: 800px;
+    position: relative;
+    left: 5px;
+    letter-spacing: 0;
+  }
+  .ev1
+  {
+    max-width: 30%;
+    border: 4px solid black;
+    padding: 16px;
+    animation: event;
+    animation-timing-function: ease-in-out;
+    animation-duration: 2s;
+    animation-iteration-count:1;
+  }
+  @keyframes event{
+    0%
+    {
+      transform: translateX(-1000px);
+    }
+    100%
+    {
+      transform: translateX(-5.5px);
+    }
+  }
+  .ev2
+  {
+    mix-blend-mode: color-burn;
+    max-width: 30%;
+    border: 4px solid black;
+    padding: 16px;
+    animation: event;
+    animation-timing-function:ease-in-out;
+    animation-duration: 2s;
+    animation-iteration-count:1;
+  }
+  .ev3
+  {
+    mix-blend-mode: color-burn;
+    max-width: 30%;
+    border: 4px solid black;
+    margin-left: 3px;
+    padding: 16px;
+    animation: event;
+    animation-timing-function: ease-in-out;
+    animation-duration: 2s;
+    animation-iteration-count:1;
+  }
+  .notifications
+  {
+    width: 90vh;
+    height: 50vh;
+    border: 1px solid black;
+  }
+  .notifications .noti_heading
+  {
+    display: flex;
+  }
+   .noti1
+  {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+  }
+  .notifications h1
+  {
+    position: relative;
+    left: 40px;
+  }
+  footer
+{
+  position: relative;
+  /* background-color: lightblue; */
+  background-image: linear-gradient(to right,rgba(255, 140, 0, 0.691),rgba(255, 0, 0, 0.718));
+  top: 80px;
+  margin-left: -7px;
+  margin-right: -8px;
+  border-radius: 10px 10px 0 0;
+  width: 98.8vw;
+  height: 30vh;
+}
+footer h1
+{
+  position: absolute;
+  top: 8px;
+  left: 15px;
+  color: rgba(255, 255, 255, 0.87);
+}
+.instagram img
+{
+  max-width: 40px;
+  position: absolute;
+  top: 90px;
+  left: 40px;
+}
+.fb img
+{
+  max-width: 90px;
+  position: absolute;
+  top: 140px;
+  left: 13px;
+}
+.fb img:hover
+{
+  max-width: 97px;
+  transition: .5s; 
+}
+.instagram img:hover
+{
+  max-width: 45px;
+  transition: .5s;
+}
+.insta h3,.facebook h3
+{
+  position: absolute;
+  top: 80px;
+  left: 90px;
+  width: 30vw;
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.87);
+}
+.facebook h3
+{
+  position: absolute;
+  top: 140px;
+}
+.facebook h3:hover
+{
+  font-size: 23px;
+  text-decoration: underline;
+  transition: .5s;
+}
+.insta h3:hover
+{
+  font-size: 23px;
+  text-decoration: underline;
+  transition: .5s;
+}
+a.insta:link,a.insta:active
+{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+a.insta:hover,a.insta:visited
+{
+  text-decoration: underline;
+  color: rgb(0, 0, 0);
+}

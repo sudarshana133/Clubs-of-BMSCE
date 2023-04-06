@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <link rel="stylesheet" href="css/profile.css">
+    <link rel="icon" href="bms_logo.png">
+</head>
+<body>
+    <div class="heading">
+                <h1>Profile Page</h1>
+    </div>
+    <nav>
+        <div class="nav_bar">
+            <ul>
+              <li><a href="/index" class="home">Home</a></li>
+              <li><a href="#contact">Contact Us</a></li>
+            </ul>
+          </div>
+    </nav>
+    <div class="prof" id="prof">
+        <div class="info">
+            <img src="images/profilePic.png" alt="profile-pic" class="profile"><h2>Profile</h2>
+            <h3>Name:<span id="name"> <%= firstName %></span></h3>
+            <h3>USN: <span id="usn"><%= USN %></span></h3>
+            <h3>Email:<span id="email"><%= Email %></span></h3>
+            <h3>Phone No:<span id="phone"><%= phoneNumber %></span></h3>
+        </div>
+    </div>
+    <!-- <footer id="contact">
+        <h1>Contact Us :</h1>
+        <div class="instagram">
+            <img src="images/instagram logo.png" alt="instagram logo" >
+            <a href="#" class="insta" target="_blank"><h3>Instagram</h3></a>
+        </div>
+        <div class="fb">
+            <img src="images/facebook logo.png" alt="facebook logo">
+            <a href="#" class="facebook" target="_blank"><h3>Facebook</h3></a>     
+        </div>
+    </footer> -->
+</body>
+</html>

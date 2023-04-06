@@ -1,0 +1,175 @@
+html
+{
+  scroll-behavior: smooth;
+}
+.heading h1
+{
+  position: relative;
+  left: 20px;
+  top: 10px;
+  width: 30vw;
+  text-decoration: none;
+  color: black;
+}
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  font-size: 120%;
+  overflow: hidden;
+  background-image: linear-gradient(to right,rgb(0, 0, 0),rgba(0, 0, 0, 0.585),    rgb(0, 0, 0), rgba(0, 0, 0, 0.87));
+  position: relative;
+  margin-right: -17px;
+  top: 10px;
+  left: -10px;
+}
+nav li {
+  margin: 0;
+  padding: 0;
+  float: left;
+}
+nav a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 25px 16px 25px;
+  text-decoration: none;
+}
+nav a.home:link {
+  margin-left: 50px;
+}
+nav a:hover {
+  background-color: rgba(255, 255, 255, 0.105);
+  padding: 25px 30px 25px;
+  transition: 0.5s;
+}
+.prof
+{
+  width: 40vw;
+  height: 60vh;
+  border: 2px solid black;
+  background-color: wheat;
+  border-radius: 10px;
+  box-shadow: 30px 30px 80px black;
+  text-align: center;
+  margin: 50px auto 0 auto;
+}
+.profile
+{
+  max-width:8%;
+  mix-blend-mode: color-burn;
+  text-align: center;
+  margin: 0 auto;
+}
+.info
+{
+  text-align: center;
+  margin: 12px auto 0 auto;
+}
+.prof h2
+{
+  color: rgba(0, 0, 0);
+}
+.prof h3
+{
+  position: relative;
+  left: 20px;
+  margin-top: 30px;
+}
+a.update_profile:link,a.update_profile:visited
+{
+  background-color: blue;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  padding: 14px;
+  border-radius: 5px;
+}
+a.update_profile:hover,a.update_profile:active
+{
+  background-color: rgb(255, 255, 255);
+  color: blue;
+  border: 1px solid blue;
+  transition: .5s;
+}
+.update
+{
+  text-align: center;
+  margin: 90px auto 0 auto;
+}
+footer
+{
+  position: relative;
+  background-color: lightblue;
+  top: 170px;
+  margin-left: -7px;
+  margin-right: -8px;
+  border-radius: 10px 10px 0 0;
+  width: 98.8vw;
+  height: 30vh;
+}
+footer h1
+{
+  position: absolute;
+  top: 8px;
+  left: 15px;
+}
+.instagram img
+{
+  max-width: 40px;
+  position: absolute;
+  top: 90px;
+  left: 40px;
+}
+.fb img
+{
+  max-width: 90px;
+  position: absolute;
+  top: 140px;
+  left: 13px;
+}
+.fb img:hover
+{
+  max-width: 97px;
+  transition: .5s; 
+}
+.instagram img:hover
+{
+  max-width: 45px;
+  transition: .5s;
+}
+.insta h3,.facebook h3
+{
+  position: absolute;
+  top: 80px;
+  left: 90px;
+  width: 30vw;
+  font-size: 20px;
+  color: black;
+}
+.facebook h3
+{
+  position: absolute;
+  top: 140px;
+}
+.facebook h3:hover
+{
+  font-size: 23px;
+  text-decoration: underline;
+  color: black;
+  transition: .5s;
+}
+.insta h3:hover
+{
+  font-size: 23px;
+  text-decoration: underline;
+  transition: .5s;
+}
+a.insta:link,a.insta:active
+{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+a.insta:hover,a.insta:visited
+{
+  text-decoration: underline;
+  color: rgb(0, 0, 0);
+}
